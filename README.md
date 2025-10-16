@@ -4,7 +4,7 @@
 
 ---
 
-### 🌟 Project Overview
+### Project Overview
 
 This repository documents the development of an **Automated Face Recognition System** designed to enhance data integrity and prevent fraud in electoral documentation. [cite_start]Developed as an intern at the **National Informatics Centre (NIC)**, Lakhimpur District Centre, Assam, this system provides a secure and automated method for verifying voter records[cite: 38, 39, 40].
 
@@ -14,13 +14,13 @@ This repository documents the development of an **Automated Face Recognition Sys
 
 ---
 
-### 🏆 Key Problem Solved
+### Key Problem Solved
 
 [cite_start]Traditional verification of voter rolls is highly **manual, slow, and error-prone**[cite: 27, 30]. [cite_start]This creates a risk of **duplicate entries** and facilitates **voter fraud** by allowing impersonation or the use of fake IDs[cite: 28, 29].
 
 [cite_start]Our system directly addresses this by automating face recognition from official documents, especially PDFs containing voter lists and IDs (EPIC), for accurate and efficient verification against a stored dataset[cite: 23, 24].
 
-### ✨ System Objectives
+### System Objectives
 
 | Objective | Description |
 | :--- | :--- |
@@ -31,7 +31,7 @@ This repository documents the development of an **Automated Face Recognition Sys
 
 ---
 
-### 🛠️ Technical Stack & Implementation
+### Technical Stack & Implementation
 
 The project utilizes a robust mix of Python libraries and a web framework to create a complete document processing pipeline:
 
@@ -52,7 +52,7 @@ The project utilizes a robust mix of Python libraries and a web framework to cre
 
 ---
 
-### 📂 Project Documentation & Certificate (Link for Resume)
+### Project Documentation & Certificate (Link for Resume)
 
 This section provides direct, verifiable proof of my internship and project work, which can be linked directly from my resume.
 
@@ -62,7 +62,7 @@ This section provides direct, verifiable proof of my internship and project work
 
 ---
 
-### 🚀 Future Work
+### Future Work
 
 Potential enhancements for the system include:
 * [cite_start]Integrating a robust database (e.g., SQLite, PostgreSQL) instead of CSV files for better storage and security[cite: 99].
