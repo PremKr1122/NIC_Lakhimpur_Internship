@@ -52,16 +52,6 @@ The project utilizes a robust mix of Python libraries and a web framework to cre
 
 ---
 
-### Project Documentation & Certificate (Link for Resume)
-
-This section provides direct, verifiable proof of my internship and project work, which can be linked directly from my resume.
-
-* [**View My Official Internship Completion Certificate**](Certificate/Industrial_Internship_Certificate.jpg) **👈 Recommended for Resume Link**
-* [View the Complete Project Presentation Slides](Documentation/Face_Recognition_System_Presentation.pptx)
-* **Source Code:** (Upload your code files to the `Source_Code/` folder and link to the main file, e.g., `Source_Code/app.py`)
-
----
-
 ### Future Work
 
 Potential enhancements for the system include:
