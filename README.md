@@ -1,4 +1,4 @@
-# 🇮🇳 Face Recognition System for Voter Trust Assurance
+# Face Recognition System for Voter Trust Assurance
 ### Industrial Internship Project at NIC, Lakhimpur District Centre
 
 ---
@@ -42,7 +42,7 @@ The project utilizes a robust mix of Python libraries and a web framework to cre
 | **Data Extraction** | **Regular Expressions (regex)** | Used to reliably extract Voter ID numbers from surrounding text in the documents. |
 | **Matching Logic** | **Cosine Similarity** | Compared extracted faces with the saved dataset to find and display matched Voter IDs with accuracy. |
 
-## ⚙️ System Flow
+## System Flow
 
 1. **Input:** Admin uploads PDF or image containing voter data.
 2. **Processing:** System extracts images/text (PyMuPDF) and detects faces (InsightFace).
@@ -78,5 +78,3 @@ python app.py
 Special thanks to **Mr. Mithun Mukherjee** and the **NIC Lakhimpur team** for their guidance and support throughout this internship project.
 
 ---
-
-**License:** [Add your license here]
