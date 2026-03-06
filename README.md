@@ -159,9 +159,9 @@ Navigate to **`http://127.0.0.1:5000`** in your browser.
 
 ---
 
-## 📖 Usage
+### Usage
 
-### 📄 Upload PDF Voter Roll (Extract & Build Dataset)
+### Upload PDF Voter Roll (Extract & Build Dataset)
 
 1. Go to **"Upload PDF to Extract & Add Faces"**
 2. Select a voter roll PDF
@@ -170,13 +170,13 @@ Navigate to **`http://127.0.0.1:5000`** in your browser.
    - Extract voter IDs via proximity matching
    - Store new unique faces into the trusted dataset
 
-### 🔍 Match / Verify Faces
+### Match / Verify Faces
 
 1. Go to **"Recognize Faces (Images or PDFs)"**
 2. Upload a PDF or image for verification
 3. Results show matched faces, similarity scores, and voter IDs
 
-### ➕ Add Single Voter Entry
+### Add Single Voter Entry
 
 1. Go to **"Single Entry to Database"**
 2. Upload a clear photo and enter the Voter ID
@@ -184,7 +184,7 @@ Navigate to **`http://127.0.0.1:5000`** in your browser.
 
 ---
 
-## 🔧 Configuration
+### Configuration
 
 | Parameter | Location | Default | Description |
 |---|---|---|---|
@@ -196,7 +196,7 @@ Navigate to **`http://127.0.0.1:5000`** in your browser.
 
 ---
 
-## 🛠️ Tech Stack
+### Tech Stack
 
 | Component | Technology |
 |---|---|
@@ -210,7 +210,7 @@ Navigate to **`http://127.0.0.1:5000`** in your browser.
 
 ---
 
-## 📡 API Routes
+### API Routes
 
 | Method | Route | Description |
 |---|---|---|
@@ -221,7 +221,7 @@ Navigate to **`http://127.0.0.1:5000`** in your browser.
 
 ---
 
-## 📊 Output Files
+### Output Files
 
 | File | Path | Contents |
 |---|---|---|
@@ -232,27 +232,16 @@ Navigate to **`http://127.0.0.1:5000`** in your browser.
 
 ---
 
-## ⚠️ Known Limitations
+### ⚠️ Known Limitations
 
-- Image-based matching (`/match` with `.jpg/.png`) is not yet implemented — use PDF input
+- Image-based matching is not yet implemented — use PDF input
 - Performance depends on PDF quality and face image resolution
-- `buffalo_l` model runs on CPU by default; GPU support available via `CUDAExecutionProvider`
-- Voter ID regex pattern assumes format: `2–4 uppercase letters` followed by `5+ digits`
+- buffalo_l model runs on CPU by default; GPU support available via CUDAExecutionProvider
+- Voter ID regex pattern assumes format: 2–4 uppercase letters followed by 5+ digits
 
 ---
 
-## 🔮 Future Improvements
-
-- [ ] Implement image-only matching in `/match` route  
-- [ ] Add GPU acceleration support  
-- [ ] Build a dashboard with statistics and charts  
-- [ ] Export flagged duplicates as a PDF report  
-- [ ] Add user authentication for admin access  
-- [ ] REST API with JSON responses for integration  
-
----
-
-## 🏛️ Acknowledgements
+### 🏛️ Acknowledgements
 
 - Developed during internship at **National Informatics Centre (NIC), Lakhimpur**
 - Face recognition powered by [InsightFace](https://github.com/deepinsight/insightface)
@@ -260,7 +249,7 @@ Navigate to **`http://127.0.0.1:5000`** in your browser.
 
 ---
 
-## 📄 License
+### 📄 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
@@ -268,7 +257,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 <div align="center">
 
-Made with ❤️ by **PremKr1122**  
 ⭐ Star this repo if you found it useful!
 
 </div>
