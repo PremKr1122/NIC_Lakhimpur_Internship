@@ -92,7 +92,8 @@ duplicate-voter-detection-system/
 
 ```
                   ┌─────────────────────────────┐
-                  │     Upload PDF / Image      │
+                  │     Upload Voter List       │
+                  │          PDF/images         │
                   └────────────┬────────────────┘
                                │
                     ┌──────────▼──────────┐
