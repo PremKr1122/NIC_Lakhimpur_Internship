@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+.venv1/
+insightenv/
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Model files
+*.pkl
+
+# Uploaded data
+uploads/
+static/uploads/
+static/dataset_b/
+
+# OS files
+.DS_Store
+Thumbs.db

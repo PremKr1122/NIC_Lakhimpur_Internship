@@ -1,0 +1,7 @@
+flask
+numpy
+opencv-python
+pymupdf
+insightface
+onnxruntime
+werkzeug
