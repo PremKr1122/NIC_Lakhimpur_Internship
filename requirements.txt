@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+streamlit
+requests
+insightface
+onnxruntime
+opencv-python
+pymupdf
+numpy
+pydantic
+scikit-learn
+matplotlib

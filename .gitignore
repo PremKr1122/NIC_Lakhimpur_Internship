@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- Virtual environment ---
+.venv1/
+venv/
+.env
+
+# --- IDE ---
+.idea/
+.vscode/
+
+# --- InsightFace model weights (large binaries, don't belong in git) ---
+model/
+*.onnx
+
+# --- Sensitive / generated data: voter photos, IDs, embeddings ---
+static/dataset_a/images/
+static/dataset_a/*.csv
+static/dataset_a/*.pkl
+static/dataset_b/
+static/uploads/
+mappings/
+
+# --- Evaluation artifacts (regenerate locally, don't commit) ---
+evaluation_results/
+test_dataset/
+pairs.csv
+
+# --- Misc ---
+*.log
+.DS_Store
+Thumbs.db
